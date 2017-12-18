@@ -1,0 +1,18 @@
+package ds.arrays.advance;
+
+import java.util.Scanner;
+
+public class SparseArray {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int N = scanner.nextInt();
+		String[] sts = new String[N];
+		
+		int Q = scanner.nextInt();
+		
+		scanner.close();
+	}
+}

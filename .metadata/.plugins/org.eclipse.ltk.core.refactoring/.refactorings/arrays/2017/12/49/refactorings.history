@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ds.arrays.advanced&apos; to &apos;ds.arrays.advance&apos;&#x0A;- Original project: &apos;arrays&apos;&#x0A;- Original element: &apos;arrays/src/ds.arrays.advanced&apos;&#x0A;- Renamed element: &apos;arrays/src/ds.arrays.advance&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ds.arrays.advanced&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ds.arrays.advanced" name="ds.arrays.advance" qualified="false" references="true" stamp="1512552423132" textual="false" version="1.0"/>
+</session>

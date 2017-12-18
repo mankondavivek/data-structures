@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ds.advanced.datastructures.advanced&apos; to &apos;ds.advanced.datastructures.advance&apos;&#x0A;- Original project: &apos;advanced-data-structures&apos;&#x0A;- Original element: &apos;advanced-data-structures/src/ds.advanced.datastructures.advanced&apos;&#x0A;- Renamed element: &apos;advanced-data-structures/src/ds.advanced.datastructures.advance&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ds.advanced.datastructures.advanced&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ds.advanced.datastructures.advanced" name="ds.advanced.datastructures.advance" qualified="false" references="true" stamp="1512552299920" textual="false" version="1.0"/>
+</session>

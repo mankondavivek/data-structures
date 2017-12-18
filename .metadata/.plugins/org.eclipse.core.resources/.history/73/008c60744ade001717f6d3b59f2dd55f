@@ -1,0 +1,20 @@
+package ds.arrays.advance;
+
+public class DynamicSeq {
+
+	
+
+	public static void main(String[] args) {
+
+	}
+
+	public static int query1xy() {
+
+		return 0;
+	}
+
+	public static int query2xy() {
+
+		return 0;
+	}
+}

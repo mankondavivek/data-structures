@@ -1,0 +1,14 @@
+package ds.arrays.advance;
+
+public class DynamicSeq {
+
+	public DynamicSeq() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+package ds.arrays.advance;
+
+public class LeftRotation {
+
+	public LeftRotation() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

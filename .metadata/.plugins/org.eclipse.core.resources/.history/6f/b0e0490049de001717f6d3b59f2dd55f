@@ -1,0 +1,9 @@
+package ds.arrays.advance;
+
+public class DynamicSeq {
+
+	public DynamicSeq() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

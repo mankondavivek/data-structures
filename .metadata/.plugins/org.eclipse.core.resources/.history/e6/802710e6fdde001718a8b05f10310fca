@@ -1,0 +1,35 @@
+package ds.arrays.advance;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DynamicSeq {
+
+	static List<ArrayList<Integer>> seqList;
+	static int lastAnswer = 0;
+	static int N = 0;
+	public static void main(String[] args) {
+		
+		
+		
+		seqList = new ArrayList<>(N);
+	}
+
+	public static int query1xy(int x, int y) {
+		
+		int sequence = (x^lastAnswer)%N;
+		seqList.get(sequence).add(y);
+		return 0;
+	}
+	
+	public static int query2xy(int x, int y) {
+		
+		int sequence = (x^lastAnswer)%N;
+		ArrayList<Integer> seq = seqList.get(sequence);
+		int val = seq.get(y%seq.size());
+		lastAnswer = val;
+		
+		System.out.println(lastAnswer);
+		return 0;
+	}
+}

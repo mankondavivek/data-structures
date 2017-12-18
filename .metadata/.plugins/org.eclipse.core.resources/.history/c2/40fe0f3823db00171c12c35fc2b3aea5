@@ -1,0 +1,119 @@
+package ds.linkedlists.basic;
+
+public class MyLinkedList {
+
+	Node headNode;
+
+	public MyLinkedList(Node head) {
+		headNode = head;
+	}
+
+	public void printList() {
+
+		if (headNode == null) {
+			System.out.println("Empty List.");
+			return;
+		}
+
+		Node node = headNode;
+
+		while (node != null) {
+
+			System.out.println(node.data + "\t");
+			node = node.nextNode;
+		}
+	}
+	
+	public int length() {
+		int len = 0;
+		if(headNode != null)
+		{
+			Node currentNode = headNode;
+			while(currentNode != null) {
+				len++;
+				currentNode = currentNode.nextNode;
+			}
+			
+			return len;
+		}
+		
+		return len;
+	}
+
+	public Node insertNode(Node newNode) {
+
+		Node currentNode = headNode;
+
+		if (headNode == null) {
+			headNode = newNode;
+			return headNode;
+		}
+
+		while (currentNode.nextNode != null) {
+			currentNode = currentNode.nextNode;
+		}
+
+		currentNode.nextNode = newNode;
+		return newNode;
+	}
+	
+	public Node insertNode(Node newNode, int position) {
+		
+		Node currentNode = headNode;
+
+		if (headNode == null) {
+			headNode = newNode;
+			return headNode;
+		}
+
+		while (currentNode.nextNode != null) {
+			currentNode = currentNode.nextNode;
+		}
+
+		currentNode.nextNode = newNode;
+		return newNode;
+	}
+	
+	public boolean deleteNode(int position) {
+		
+		if(headNode == null) {
+			System.err.println("Delete failed : List already empty.");
+			return false;
+		}
+		
+		Node currentNode = headNode;
+		for(int i = 0; i < (position - 1); i++)
+		{
+			if(currentNode == null)
+			{
+				System.err.println("Delete failed : Position not found.");
+				return false;
+			}
+			currentNode = currentNode.nextNode;
+		}
+		
+		return false;
+	}
+
+	public boolean deleteNode(Node node) {
+
+		return false;
+	}
+
+	public boolean deleteNode(double data) {
+
+		return false;
+	}
+
+	public static void main(String args[]) {
+
+		MyLinkedList myLinkedList = new MyLinkedList(null);
+
+		myLinkedList.insertNode(new Node(200));
+		myLinkedList.insertNode(new Node(300));
+		myLinkedList.insertNode(new Node(400));
+		myLinkedList.insertNode(new Node(500));
+		
+		myLinkedList.printList();
+	}
+}
